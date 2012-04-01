@@ -14,5 +14,11 @@ namespace ProjectEuler.Test
         {
             Assert.AreEqual(Questions.question1(), 233168);
         }
+
+        [TestMethod]
+        public void Question2Test()
+        {
+            Assert.AreEqual(Questions.question2(), 4613732);
+        }
     }
 }

@@ -19,5 +19,15 @@ namespace ProjectEuler.Test
 
             Assert.IsTrue(result.SequenceEqual(expectedResult));
         }
+
+        [TestMethod]
+        public void FibonacciTest()
+        {
+            var result = Helpers.fibonacci(100);
+
+            var expectedResult = new[] { 1, 2, 3, 5, 8, 13, 21, 34, 55, 89 };
+
+            Assert.IsTrue(result.SequenceEqual(expectedResult));
+        }
     }
 }
